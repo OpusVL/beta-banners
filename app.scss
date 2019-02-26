@@ -10,7 +10,7 @@ $box-shadow: #888888;
   height: 50px;
   top: 0;
   right: 0;
-  z-index: 9999;
+  z-index: 999;
 }
 .beta {
   position: absolute;
@@ -95,6 +95,8 @@ $box-shadow: #888888;
     -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
     bottom: -105px;
+    // no links restyle position
+    // bottom: -155px;
     right: -40px;
     transform-origin: bottom left;
   }
